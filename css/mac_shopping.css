@@ -137,7 +137,13 @@ body {
   color: black;
 }
 
+/*반응형 버튼*/
+.burger_sub {
+  display: none;
+}
+
 /*메인 시작*/
+
 .mac_container {
   width: 980px;
   margin: auto;
@@ -436,7 +442,7 @@ main > h5 > span {
   overflow: hidden;
   position: relative;
   box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.1);
-  margin-top: 30px;
+  margin-top: 50px;
 }
 
 video {

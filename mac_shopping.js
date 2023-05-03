@@ -76,7 +76,6 @@ let nextBtn1 = document.querySelector(".btn_next"),
 nextBtn1.addEventListener("click", function () {
   let shopping = getComputedStyle(moveShopping);
   let marginLeft = parseInt(shopping.marginLeft);
-  console.log(marginLeft);
 
   if (marginLeft > -2400) {
     moveShopping.style.marginLeft = "-2660px";
@@ -135,7 +134,6 @@ let nextBtn2 = document.querySelector(".btn_wrap2 i:last-child"),
 nextBtn2.addEventListener("click", function () {
   (acceCom = getComputedStyle(moveAccessory)),
     (accMargin = parseInt(acceCom.marginLeft));
-  console.log(accMargin);
 
   if (accMargin > -620) {
     moveAccessory.style.marginLeft = "-900px";
@@ -154,7 +152,6 @@ nextBtn2.addEventListener("click", function () {
 preBtn2.addEventListener("click", function () {
   (acceCom = getComputedStyle(moveAccessory)),
     (accMargin = parseInt(acceCom.marginLeft));
-  console.log(accMargin);
 
   if (accMargin > -920) {
     moveAccessory.style.marginLeft = "-600px";
